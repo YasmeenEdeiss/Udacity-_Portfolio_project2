@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main body styling with flex layout */
+body {
+  line-height: 1.6;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+/* Fixed navigation bar at top-right */
+.navbar {
+  position: fixed;
+  top: 0.5rem;
+  right: 1.19rem;
+}
+/* Navbar list container */
+.navbar__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+/* Navbar link styling */
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+  text-align: center;
+}
